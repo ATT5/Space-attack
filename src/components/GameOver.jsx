@@ -10,6 +10,8 @@ const GameOver = () => {
 
   const handleScore = (e) => {
     e.preventDefault();
+    
+    if (name.trim() === "") return;
     ctx.submitScore(name);
 
     setName("");
