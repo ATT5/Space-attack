@@ -7,7 +7,7 @@ class Grid {
       y: 0,
     };
     this.velocity = {
-      x: 3,
+      x: 6,
       y: 0,
     };
     this.invaders = [];
